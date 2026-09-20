@@ -5,10 +5,10 @@ pool:
   vmImage: 'ubuntu-latest'
 
 variables:
-  azureSubscription: 'tallerDevOps3' # Este es un nombre que debe cambiar al que crearon.
+  azureSubscription: 'DEVOPS_001A_GRUPO_5' # Este es un nombre que debe cambiar al que crearon.
   location: 'eastus2'
-  resourceGroupName: 'demo-tallerDevOps' # Este es un nombre que debe cambiar al que crearon.
-  virtualNetworkName: 'VNet-taller-DevOps'
+  resourceGroupName: 'DEVOPS_001A_GRUPO05' # Este es un nombre que debe cambiar al que crearon.
+  virtualNetworkName: 'REDVIRTUAL_DEVOPS'
   subnetName: 'Subnet-taller-DevOps'
   addressPrefix: '10.0.0.0/16'
   subnetPrefix: '10.0.1.0/24'
