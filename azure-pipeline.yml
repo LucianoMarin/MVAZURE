@@ -6,7 +6,7 @@ pool:
 
 variables:
   azureSubscription: 'SC_DEVOPS_001A_GRUPO05' # Este es un nombre que debe cambiar al que crearon.
-  location: 'eastus2'
+  location: 'northcentralus'
   resourceGroupName: 'DEVOPS_001A_GRUPO05' # Este es un nombre que debe cambiar al que crearon.
   virtualNetworkName: 'REDVIRTUAL_DEVOPS'
   subnetName: 'SUBNET_001A_GRUPO_5'
@@ -15,7 +15,7 @@ variables:
   securityGroupName: 'NSG-001A_GRUPO_5'
   publicIpName: 'PublicIP-001A_GRUPO_5'
   vmName: 'VM-001A_GRUPO_5'
-  vmSize: 'Standard_B1s'  # SKU disponible en eastus2
+  vmSize: 'Standard_B2ats_v2'  # SKU disponible en north
   adminUsername: 'azureuser'
   adminPassword: 'Password1234$'  # Contraseña en texto plano (ajustar según necesidad)
 
