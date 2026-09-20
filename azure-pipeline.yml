@@ -9,12 +9,12 @@ variables:
   location: 'eastus2'
   resourceGroupName: 'DEVOPS_001A_GRUPO05' # Este es un nombre que debe cambiar al que crearon.
   virtualNetworkName: 'REDVIRTUAL_DEVOPS'
-  subnetName: 'Subnet-taller-DevOps'
+  subnetName: 'SUBNET_001A_GRUPO_5'
   addressPrefix: '10.0.0.0/16'
   subnetPrefix: '10.0.1.0/24'
-  securityGroupName: 'NSG-taller-DevOps'
-  publicIpName: 'PublicIP-2-taller-DevOps'
-  vmName: 'VM-2-taller-DevOps'
+  securityGroupName: 'NSG-001A_GRUPO_5'
+  publicIpName: 'PublicIP-001A_GRUPO_5'
+  vmName: 'VM-001A_GRUPO_5'
   vmSize: 'Standard_B1s'  # SKU disponible en eastus2
   adminUsername: 'azureuser'
   adminPassword: 'Password1234$'  # Contraseña en texto plano (ajustar según necesidad)
